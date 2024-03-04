@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: spring-boot-hello-world
+title: Spring Boot Hello World Template
+description: |
+  This template deploys a simple Spring Boot 2.x Hello World application.
+  Follow the steps to fetch the code, build the application, and deploy it using Jenkins.
+owner: Your Team
+tags:
+  - spring
+  - java
+  - jenkins
+  - hello-world
+lifecycle: experimental
+template:
+  path: ./template.yaml
